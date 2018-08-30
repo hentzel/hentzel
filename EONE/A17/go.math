@@ -1,0 +1,14 @@
+Get["name"];
+
+Get["BUILD_OUT"];
+
+X = NullSpace[Transpose[A],Modulus->251];
+
+ans = X;
+
+poop := Do[If[ans[[i,j]]>100,ans[[i,j]] = ans[[i,j]]-251],
+{i,1,Length[ans]},{j,1,Length[ans[[i]]]}]; 
+
+Print[" The fucking length of ans is ",Length[ans]];
+
+
