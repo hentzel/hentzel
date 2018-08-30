@@ -1,0 +1,13 @@
+
+
+
+I create a substitution in the identity EONE
+
++((ab)c)d----------> shrink-----------expand with e1 ------ 
++((ac)d)b----------> shrink
++((ad)b)c----------> shrink
+-((ac)b)d
+-((ab)d)c
+-((ad)c)b----------> shrink
+---------------------------------------------------------------
+                                                    should be zero
